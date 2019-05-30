@@ -38,7 +38,7 @@ public class Despojados {
                     
                     pAnt = pAtu;
                   }
-                  System.out.println(contDiv);
+                  
                 }
                 // passa para o proximo primo;
                  if (pAtu == 2){
@@ -56,15 +56,9 @@ public class Despojados {
          * Baseado em Conjunto de Potencia, tem-se o calculo da quantidade de
          * todos os cojuntos possiveis ignorando o vazio e os de 1 item.
          */
-        
-        
         int resultado = (int) (Math.pow(2, contDiv) - (contDiv + 1));
-        
-        System.out.println(contDiv);
-        
-        
-        
-        System.out.print(resultado);
+             
+        System.out.println(resultado);
         
     }
 
